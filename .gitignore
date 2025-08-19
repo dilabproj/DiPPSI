@@ -1,0 +1,118 @@
+# 數據文件和目錄
+data/
+out/
+results/
+outputs/
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# 大型數據文件
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.csv
+*.tsv
+*.json
+*.xml
+
+# 模型檢查點和權重文件
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pb
+*.onnx
+*.tflite
+checkpoints/
+models/saved/
+weights/
+
+# 日誌文件
+*.log
+wget-log*
+*.out
+*.err
+logs/
+
+# Python 編譯文件
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.dll
+*.dylib
+
+# Jupyter notebook 相關
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# 大型圖片和可視化文件
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+figs/
+images/
+plots/
+
+# 環境和配置
+.env
+.venv/
+venv/
+env/
+*.env
+.conda/
+
+# IDE 和編輯器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 系統文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 臨時文件
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# 壓縮文件
+*.gz
+*.bz2
+*.xz
+
+# 實驗結果
+experiments/
+runs/
+wandb/
+tensorboard_logs/
+
+# 緩存目錄
+.cache/
+cache/
+
+# 特定於項目的忽略
+naomi_step256_scientisst_ecg/
+mimic_CSDI/
+CSDI_old/ 
